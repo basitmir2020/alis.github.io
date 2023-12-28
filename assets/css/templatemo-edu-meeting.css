@@ -573,7 +573,17 @@ header
   }
 }
 
+#logo-class{
+  display: none;
+}
+
 @media (max-width: 767px) {
+  #logo-white{
+    display: none;
+  }
+  #logo-class{
+    display: inline;
+  }
   .header-area .main-nav .logo {
     color: #1e1e1e;
   }
