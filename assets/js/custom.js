@@ -6,11 +6,13 @@
 	  var scroll = $(window).scrollTop();
 	  var box = $('.header-text').height();
 	  var header = $('header').height();
-
+	  var myImage = document.getElementById('myImage');
 	  if (scroll >= box - header) {
 	    $("header").addClass("background-header");
+		  myImage.src="assets/images/logo-black.png";
 	  } else {
 	    $("header").removeClass("background-header");
+		  myImage.src="assets/images/DLOGO.png";
 	  }
 	});
 	
